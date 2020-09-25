@@ -56,7 +56,7 @@ All functionality for the models should be tested.
     * Input: 3
     * Output: {3,5}
 
-  5.[] Given two numbers, one for a bread order and the other for a pastry order, the RingUp method will return the total number of bread and patries received in addition to their total cost together.
+  5.[X] Given two numbers, one for a bread order and the other for a pastry order, the RingUp method will return the total number of bread and patries received in addition to their total cost together.
     * Input: {2,3}
     * Output: {3,3,15}
 
