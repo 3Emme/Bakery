@@ -6,9 +6,9 @@ namespace Bakery.Tests
   public class BakeryTests
   {
     [TestMethod]
-    public void BreadCost_BuyOne_5()
+    public void BreadCost_BuyOne_1and5()
     {      
-      Assert.AreEqual(5,Bread.BreadCost(1));
+      Assert.AreEqual((1,5),Bread.BreadCost(1));
     }
   }
 }
