@@ -9,7 +9,7 @@ namespace Bakery
     {
       Console.WriteLine("breadQuant: "+breadQuant);
       int breadMod = breadQuant%3;
-      int breadPrice = (breadQuant-breadMod)*5;
+      int breadPrice = (breadQuant-(breadQuant/3))*5;
       int adjBreadQuant = breadQuant;
       Console.WriteLine("breadMod: "+breadMod);
       Console.WriteLine("breadPrice: "+breadPrice);
