@@ -5,9 +5,10 @@ namespace Bakery
 {
   public class Bread
   {
-    static public int BreadCost(int breadQuant)
+    static public int[] BreadCost(int breadQuant)
     {
-      int result = breadQuant*5;
+      int breadPrice = breadQuant*5;
+      int[] result = {breadQuant,breadPrice};
       return result;
     }
   }
