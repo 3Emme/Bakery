@@ -44,7 +44,7 @@ All functionality for the models should be tested.
     * Input: 1
     * Output: {1,5}
 
-  2.[] Given a number, the BreadCost method will return the number of breads given and the total cost assuming the cost is a single piece is $5 for 1, but that buying 2 will give you a third for free.
+  2.[X] Given a number, the BreadCost method will return the number of breads given and the total cost assuming the cost is a single piece is $5 for 1, but that buying 2 will give you a third for free.
     * Input: 2
     * Output: {3,10}
 
