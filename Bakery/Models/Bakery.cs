@@ -22,7 +22,7 @@ namespace Bakery
       Console.WriteLine("adjBreadQuant: "+adjBreadQuant);
       Console.WriteLine("breadPrice: "+breadPrice);
       int[] result = {adjBreadQuant,breadPrice};
-      Console.WriteLine("result: "+result[0]+","+result[0]);
+      Console.WriteLine("result: "+result[0]+","+result[1]);
       return result;
     }
   }
