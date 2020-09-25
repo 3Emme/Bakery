@@ -36,8 +36,8 @@ namespace Bakery.Tests
     [TestMethod]
     public void PastryCost_BuyThreeforFive_3and5()
     {      
-      Assert.AreEqual(3,Pastry.PastryCost(1)[0]);
-      Assert.AreEqual(5,Pastry.PastryCost(1)[1]);
+      Assert.AreEqual(3,Pastry.PastryCost(3)[0]);
+      Assert.AreEqual(5,Pastry.PastryCost(3)[1]);
     }
   }
 }
