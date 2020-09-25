@@ -40,17 +40,17 @@ All functionality for the models should be tested.
 
 ## Business Specs
 
-  1.[X] Given a number, the BreadCost method will calculate the total cost of bread assuming the cost is a $5 for 1.
+  1.[X] Given a number, the BreadCost method will return the number of breads given and calculate the total cost of bread assuming the cost is a $5 for 1.
     * Input: 1
-    * Output: 5
+    * Output: {1,5}
 
   2.[] Given a number, the BreadCost method will return the number of breads given and the total cost assuming the cost is a single piece is $5 for 1, but that buying 2 will give you a third for free.
     * Input: 2
     * Output: {3,10}
 
-  3.[] Given a number, the Pastry method will calculate the total cost of pastries assuming the cost is a $2 for 1.
+  3.[] Given a number, the Pastry method will return the number of pastries given and calculate the total cost of pastries assuming the cost is a $2 for 1.
     * Input: 1
-    * Output: 2
+    * Output: {1,2}
 
   4.[] Given a number, the Pastry method will return the number of pastries given and the total cost assuming the cost is a single piece is $5 for 1, but that buying 2 will give you a third for free.
     * Input: 3
