@@ -9,7 +9,11 @@ namespace Bakery
       int[] breadArray = Bread.BreadCost(breadQuant);
       int[] pastryArray = Pastry.PastryCost(pastryQuant);
       int totalCost = breadArray[1]+pastryArray[1];
-      Console.WriteLine($"Ring Up! {breadArray[0]} loaves of bread and {pastryArray[0]} pastries comes to a total of ${totalCost}.");
+      Console.WriteLine($"Ring Up! {breadArray[0]} bread and {pastryArray[0]} pastry comes to a total of ${totalCost}.");
+      if(breadArray[0]>breadQuant)
+      {
+        Console.WriteLine("(We threw an extra loaf of bread into your order for free since you qualified for our BOGO deal. Cheers!");
+      }
     }
 
     public static void Main()
