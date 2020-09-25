@@ -40,7 +40,7 @@ All functionality for the models should be tested.
 
 ## Business Specs
 
-  1.[] Given a number, the BreadCost method will calculate the total cost of bread assuming the cost is a $5 for 1.
+  1.[X] Given a number, the BreadCost method will calculate the total cost of bread assuming the cost is a $5 for 1.
     * Input: 1
     * Output: 5
 
