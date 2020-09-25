@@ -25,5 +25,12 @@ namespace Bakery.Tests
       Assert.AreEqual(3,Bread.BreadCost(3)[0]);
       Assert.AreEqual(10,Bread.BreadCost(3)[1]);
     }
+
+    [TestMethod]
+    public void PastryCost_BuyOne_1and2()
+    {      
+      Assert.AreEqual(1,Pastry.PastryCost(1)[0]);
+      Assert.AreEqual(2,Pastry.PastryCost(1)[1]);
+    }
   }
 }
