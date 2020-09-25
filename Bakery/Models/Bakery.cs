@@ -18,4 +18,14 @@ namespace Bakery
       return result;
     }
   }
+
+  public class Pastry
+  {
+    static public int[] PastryCost(int pastryQuant)
+    {
+      int pastryPrice = pastryQuant*2;
+      int[] result = {pastryQuant,pastryPrice};
+      return result;
+    }
+  }
 }
