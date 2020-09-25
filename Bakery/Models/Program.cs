@@ -8,7 +8,8 @@ namespace Bakery
     {
       int[] breadArray = Bread.BreadCost(breadQuant);
       int[] pastryArray = Pastry.PastryCost(pastryQuant);
-      Console.WriteLine($"Ring Up!");
+      int totalCost = breadArray[1]+pastryArray[1];
+      Console.WriteLine($"Ring Up! {breadArray[0]} loaves of bread and {pastryArray[0]} pastries comes to a total of ${totalCost}.");
     }
 
     public static void Main()
