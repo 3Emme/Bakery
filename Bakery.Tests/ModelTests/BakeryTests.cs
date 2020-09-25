@@ -8,7 +8,7 @@ namespace Bakery.Tests
     [TestMethod]
     public void BreadCost_BuyOne_5()
     {      
-      Assert.AreEqual(5,Bread.BreadCost("1"));
+      Assert.AreEqual(5,Bread.BreadCost(1));
     }
   }
 }
