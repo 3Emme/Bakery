@@ -52,7 +52,7 @@ All functionality for the models should be tested.
     * Input: 1
     * Output: {1,2}
 
-  4.[] Given a number, the PastryCost method will return the number of pastries given and the total cost assuming the cost is a single piece is $2 for 1, but that buying 3 costs 5.
+  4.[X] Given a number, the PastryCost method will return the number of pastries given and the total cost assuming the cost is a single piece is $2 for 1, but that buying 3 costs 5.
     * Input: 3
     * Output: {3,5}
 
