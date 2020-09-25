@@ -48,15 +48,15 @@ All functionality for the models should be tested.
     * Input: 2
     * Output: {3,10}
 
-  3.[] Given a number, the Pastry method will return the number of pastries given and calculate the total cost of pastries assuming the cost is a $2 for 1.
+  3.[] Given a number, the PastryCost method will return the number of pastries given and calculate the total cost of pastries assuming the cost is a $2 for 1.
     * Input: 1
     * Output: {1,2}
 
-  4.[] Given a number, the Pastry method will return the number of pastries given and the total cost assuming the cost is a single piece is $5 for 1, but that buying 2 will give you a third for free.
+  4.[] Given a number, the PastryCost method will return the number of pastries given and the total cost assuming the cost is a single piece is $5 for 1, but that buying 2 will give you a third for free.
     * Input: 3
     * Output: {3,5}
 
-  5.[] Given two numbers, one for a bread order and the other for a pastry order, the RingUp method will return the total number of bread and patries received in addition to their total cost together
+  5.[] Given two numbers, one for a bread order and the other for a pastry order, the RingUp method will return the total number of bread and patries received in addition to their total cost together.
     * Input: {2,3}
     * Output: {3,3,15}
 
