@@ -32,22 +32,25 @@ namespace Bakery.Tests
     [TestMethod]
     public void PastryCost_BuyOne_1and2()
     {      
-      Assert.AreEqual(1,Pastry.PastryCost(1)[0]);
-      Assert.AreEqual(2,Pastry.PastryCost(1)[1]);
+      Pastry newPastry = new Pastry(1);
+      Assert.AreEqual(1,newPastry.PastryCost()[0]);
+      Assert.AreEqual(2,newPastry.PastryCost()[1]);
     }
 
     [TestMethod]
     public void PastryCost_BuyThreeforFive_3and5()
     {      
-      Assert.AreEqual(3,Pastry.PastryCost(3)[0]);
-      Assert.AreEqual(5,Pastry.PastryCost(3)[1]);
+      Pastry newPastry = new Pastry(3);
+      Assert.AreEqual(3,newPastry.PastryCost()[0]);
+      Assert.AreEqual(5,newPastry.PastryCost()[1]);
     }
 
     [TestMethod]
     public void PastryCost_BuyFiveWithDiscount_5and9()
     {      
-      Assert.AreEqual(5,Pastry.PastryCost(5)[0]);
-      Assert.AreEqual(9,Pastry.PastryCost(5)[1]);
+      Pastry newPastry = new Pastry(5);
+      Assert.AreEqual(5,newPastry.PastryCost()[0]);
+      Assert.AreEqual(9,newPastry.PastryCost()[1]);
     }
     [TestMethod]
     public void BreadConstructor_CreatesInstanceOfBread_Bread()
