@@ -33,7 +33,7 @@ All functionality for the models should be tested.
   * Application correctly uses auto-implemented properties. **[Incomplete]**
   * Classes should include methods for determining the price of an order. **[Complete]**
   * Models are thoroughly tested. **[Complete]**
-  * Previous objectives have been met. **[Incomplete]**
+  * Previous objectives have been met. **[Complete]**
   * Required functionality is in place by the 5:00pm Friday deadline. **[Complete]**
   * Project is in a polished, portfolio-quality state. **[Complete]**
   * Project demonstrates understanding of this week's concepts. If prompted, you can discuss your code with an instructor using the correct terminology. **[Complete]**
@@ -67,7 +67,6 @@ All functionality for the models should be tested.
 * _type "git clone https://github.com/3emme/Bakery", then press enter_
 * _locate and open directory on desktop named "Bakery" with your console of choice_
 * _in console, locate and move to the directory inside called Bakery_
-* _in console, run $dotnet restore_
 * _in console, run $dotnet run_
 
 
