@@ -27,6 +27,11 @@ namespace Bakery
 
   public class Pastry
   {
+    public int PastryQuant { get; set; }
+    public Pastry(int pastryQuant)
+    {
+      PastryQuant = pastryQuant;
+    }
     static public int[] PastryCost(int pastryQuant)
     {
       int pastryPrice = (pastryQuant*2)-(pastryQuant/3);
