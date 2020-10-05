@@ -8,22 +8,25 @@ namespace Bakery.Tests
     [TestMethod]
     public void BreadCost_BuyOne_1and5()
     {      
-      Assert.AreEqual(1,Bread.BreadCost(1)[0]);
-      Assert.AreEqual(5,Bread.BreadCost(1)[1]);
+      Bread newBread = new Bread(1);
+      Assert.AreEqual(1,newBread.BreadCost()[0]);
+      Assert.AreEqual(5,newBread.BreadCost()[1]);
     }
 
     [TestMethod]
     public void BreadCost_BuyTwoGetOneFree_3and10()
     {      
-      Assert.AreEqual(3,Bread.BreadCost(2)[0]);
-      Assert.AreEqual(10,Bread.BreadCost(2)[1]);
+      Bread newBread = new Bread(2);
+      Assert.AreEqual(3,newBread.BreadCost()[0]);
+      Assert.AreEqual(10,newBread.BreadCost()[1]);
     }
 
     [TestMethod]
     public void BreadCost_BuyThreePayForTwo_3and10()
     {      
-      Assert.AreEqual(3,Bread.BreadCost(3)[0]);
-      Assert.AreEqual(10,Bread.BreadCost(3)[1]);
+      Bread newBread = new Bread(3);
+      Assert.AreEqual(3,newBread.BreadCost()[0]);
+      Assert.AreEqual(10,newBread.BreadCost()[1]);
     }
 
     [TestMethod]
