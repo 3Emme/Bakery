@@ -32,8 +32,9 @@ namespace Bakery
     {
       PastryQuant = pastryQuant;
     }
-    static public int[] PastryCost(int pastryQuant)
+    public int[] PastryCost()
     {
+      int pastryQuant = PastryQuant;
       int pastryPrice = (pastryQuant*2)-(pastryQuant/3);
       int[] result = {pastryQuant,pastryPrice};
       return result;
