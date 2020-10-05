@@ -1,4 +1,4 @@
-# __Currency Exchanger__
+# __Bakery__
 
 #### __An application which a user can use to determine the to determine the cost of buying bread and pastries. September 25, 2020__
 
@@ -30,7 +30,7 @@ All functionality for the models should be tested.
 
   * Code includes two custom classes and uses namespaces. **[Complete]**
   * Console application works correctly. **[Complete]**
-  * Application correctly uses auto-implemented properties. **[Incomplete]**
+  * Application correctly uses auto-implemented properties. **[Complete]**
   * Classes should include methods for determining the price of an order. **[Complete]**
   * Models are thoroughly tested. **[Complete]**
   * Previous objectives have been met. **[Complete]**
