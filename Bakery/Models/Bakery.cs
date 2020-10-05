@@ -10,8 +10,9 @@ namespace Bakery
     {
       BreadQuant = breadQuant;
     }
-    static public int[] BreadCost(int breadQuant)
+    public int[] BreadCost()
     {
+      int breadQuant = BreadQuant;
       int breadMod = breadQuant%3;
       int breadPrice = (breadQuant-(breadQuant/3))*5;
       int adjBreadQuant = breadQuant;
