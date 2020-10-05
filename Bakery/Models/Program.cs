@@ -6,8 +6,10 @@ namespace Bakery
   {
     public static void RingUp(int breadQuant, int pastryQuant)
     {
-      int[] breadArray = Bread.BreadCost(breadQuant);
-      int[] pastryArray = Pastry.PastryCost(pastryQuant);
+      Bread newBread = new Bread(breadQuant);
+      Pastry newPastry = new Pastry(pastryQuant);
+      int[] breadArray = newBread.BreadCost();
+      int[] pastryArray = newPastry.PastryCost();
       int totalCost = breadArray[1]+pastryArray[1];
       Console.WriteLine($"Ring Up! {breadArray[0]} bread and {pastryArray[0]} pastry comes to a total of ${totalCost}.");
       if(breadArray[0]>breadQuant)
@@ -29,7 +31,7 @@ namespace Bakery
       RingUp(breadQuant,pastryQuant);
       Console.WriteLine("Would you like to make another order? Y/N");
       string anotherOrder= Console.ReadLine();
-      if (anotherOrder == "Y")
+      if (anotherOrder == "Y" || anotherOrder == "y")
       {
         TakeOrder();
       }
