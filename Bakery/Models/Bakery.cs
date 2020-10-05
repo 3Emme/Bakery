@@ -5,6 +5,11 @@ namespace Bakery
 {
   public class Bread
   {
+    public int BreadQuant { get; set; }
+    public Bread(int breadQuant)
+    {
+      BreadQuant = breadQuant;
+    }
     static public int[] BreadCost(int breadQuant)
     {
       int breadMod = breadQuant%3;
